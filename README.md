@@ -40,6 +40,10 @@ To add the Salesforce application in Microsoft Entra, I navigated to **Enterpris
 
 ### Configure Salesforce SSO
 
+1. In my Salesforce Developer account, I ensured that the SAML feature was enabled by navigating to: **Setup** > **Identity** > **Single Sign-On Settings**, clicking **Edit**, selecting **Enable SAML**, and then clicking **Save**:
+
+<img src="https://github.com/user-attachments/assets/16579ea8-3b92-4dae-b49b-8c1b89bcc4a3" alt="Enable SAML in Salesforce" width="400" />
+
 
 
 
