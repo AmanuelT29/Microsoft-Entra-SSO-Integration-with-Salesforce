@@ -42,7 +42,16 @@ To add the Salesforce application in Microsoft Entra, I navigated to **Enterpris
 
 1. In my Salesforce Developer account, I ensured that the SAML feature was enabled by navigating to: **Setup** > **Identity** > **Single Sign-On Settings**, clicking **Edit**, selecting **Enable SAML**, and then clicking **Save**:
 
-<img src="https://github.com/user-attachments/assets/16579ea8-3b92-4dae-b49b-8c1b89bcc4a3" alt="Enable SAML in Salesforce" width="400" />
+<img src="https://github.com/user-attachments/assets/16579ea8-3b92-4dae-b49b-8c1b89bcc4a3" alt="Enable SAML in Salesforce" width="450" />
+
+2. I configured the SAML Single Sign-On settings in Salesforce by selecting **New from Metadata File**, clicking **Choose File** to upload the Federation Metadata XML file I had previously downloaded from my Microsoft Entra page, and then selected **Create**:
+
+<img src="https://github.com/user-attachments/assets/5bb3da30-fb70-4fde-8557-9962df94b49e" alt="Upload Metadata to Salesforce" width="500" />
+
+3. After uploading the file and clicking **Create**, Salesforce automatically generated the SAML Single Sign-On Settings page with the metadata fields pre-filled. I named this SAML configuration **EntraSSO** and clicked **Save**:
+
+<img src="https://github.com/user-attachments/assets/b4ad167b-cec8-4bf5-8fac-742a3295e92c" alt="SAML Settings Generated" width="500" />
+
 
 
 
