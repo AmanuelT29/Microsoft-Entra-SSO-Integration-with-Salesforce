@@ -48,9 +48,22 @@ To add the Salesforce application in Microsoft Entra, I navigated to **Enterpris
 
 <img src="https://github.com/user-attachments/assets/5bb3da30-fb70-4fde-8557-9962df94b49e" alt="Upload Metadata to Salesforce" width="500" />
 
-3. After uploading the file and clicking **Create**, Salesforce automatically generated the SAML Single Sign-On Settings page with the metadata fields pre-filled. I named this SAML configuration **EntraSSO** and clicked **Save**:
+3. After uploading the file and clicking **Create**, Salesforce automatically generated metadata page with the metadata fields pre-filled with my Microsoft Entra information. I named this SAML configuration **EntraSSO** and clicked **Save**:
 
 <img src="https://github.com/user-attachments/assets/b4ad167b-cec8-4bf5-8fac-742a3295e92c" alt="SAML Settings Generated" width="500" />
+
+4. To enable the **EntraSSO** authentication method, I navigated to **Company Settings** > **My Domain** > **Authentication Configuration**, clicked **Edit**, selected the **EntraSSO** checkbox, and then clicked **Save**:
+
+<img src="https://github.com/user-attachments/assets/d7c9c7e1-48c5-4b14-9633-9e3c1453cd76" alt="Enable EntraSSO in Salesforce" width="500" />
+
+### Test SSO on a User
+
+1. To test whether SSO was functioning correctly, I assigned the Microsoft Entra user **Pipa** to the Salesforce application. Then, I created a corresponding user account for **Pipa** on my Salesforce Developer site:
+<p>
+  <img src="https://github.com/user-attachments/assets/bdea96f4-19ad-46d0-973d-ef99590d85aa" alt="Assign Pipa in Entra" width="450" />
+  <img src="https://github.com/user-attachments/assets/1d622aaa-f294-4280-9a58-5c28510a04de" alt="Create Pipa in Salesforce" width="450" />
+</p>
+
 
 
 
