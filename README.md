@@ -24,7 +24,7 @@ To add the Salesforce application in Microsoft Entra, I navigated to **Enterpris
 
 ### Configure Microsoft Entra SSO
 
-1. To configure Micrsoft Entra SSO for Salesforce, I navigated to **Enterprise applications** > **Salesforce** > **Single sign-on**. On the Select a single sign-on method page, I chose **SAML**. Then, on the **Set up single sign-on with SAML** page, I clicked the edit icon under **Basic SAML Configuration** to modify the required settings:
+1. To configure Microsoft Entra SSO for Salesforce, I navigated to **Enterprise applications** > **Salesforce** > **Single sign-on**. On the Select a single sign-on method page, I chose **SAML**. Then, on the **Set up single sign-on with SAML** page, I clicked the edit icon under **Basic SAML Configuration** to modify the required settings:
 
 <img src="https://github.com/user-attachments/assets/9b10c18f-33b4-4885-af6f-2dd20099ad32" alt="SAML Configuration in Entra" width="400" />
 
