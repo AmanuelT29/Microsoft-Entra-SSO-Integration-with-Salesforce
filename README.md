@@ -71,6 +71,12 @@ To add the Salesforce application in Microsoft Entra, I navigated to **Enterpris
   <img src="https://github.com/user-attachments/assets/2161395e-34a5-47eb-828a-9ec4ad98528f" alt="Logged into Salesforce via SSO" width="450" />
 </p>
 
+-------
+
+## Conclusion
+
+This project successfully demonstrates how to integrate Microsoft Entra ID with Salesforce using SAML-based Single Sign-On (SSO). By configuring both platforms and exchanging metadata, I enabled seamless authentication for users. The final test—logging in as the assigned Entra user and accessing Salesforce without re-entering credentials, validated that the SSO setup was functioning as intended. This integration enhances security and user experience by centralizing identity management through Microsoft Entra ID.
+
 
 
 
