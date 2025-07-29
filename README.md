@@ -54,7 +54,7 @@ To add the Salesforce application in Microsoft Entra, I navigated to **Enterpris
 
 4. To enable the **EntraSSO** authentication method, I navigated to **Company Settings** > **My Domain** > **Authentication Configuration**, clicked **Edit**, selected the **EntraSSO** checkbox, and then clicked **Save**:
 
-<img src="https://github.com/user-attachments/assets/d7c9c7e1-48c5-4b14-9633-9e3c1453cd76" alt="Enable EntraSSO in Salesforce" width="500" />
+<img src="https://github.com/user-attachments/assets/d7c9c7e1-48c5-4b14-9633-9e3c1453cd76" alt="Enable EntraSSO in Salesforce" width="400" />
 
 ### Test SSO on a User
 
@@ -64,7 +64,12 @@ To add the Salesforce application in Microsoft Entra, I navigated to **Enterpris
   <img src="https://github.com/user-attachments/assets/1d622aaa-f294-4280-9a58-5c28510a04de" alt="Create Pipa in Salesforce" width="450" />
 </p>
 
+2. After creating user **Pipa** account in Salesforce, I logged into the Microsoft My Apps portal using the same Pipa Entra account. The Salesforce application appeared on the dashboard. Upon clicking it, I was redirected to the Salesforce site without needing to sign in again, confirming that the SSO configuration was working successfully:
 
+<p>
+  <img src="https://github.com/user-attachments/assets/f519d564-e628-463a-a998-4fd6a888a9ee" alt="Salesforce on Entra Dashboard" width="450" />
+  <img src="https://github.com/user-attachments/assets/2161395e-34a5-47eb-828a-9ec4ad98528f" alt="Logged into Salesforce via SSO" width="450" />
+</p>
 
 
 
